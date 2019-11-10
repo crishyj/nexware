@@ -1,0 +1,82 @@
+.login-content .login-box.flipped .forget-form{
+    position: relative;
+}
+
+.logout{
+    float: right;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.app-sidebar__user-avatar{
+    width: 50px;
+}
+
+.activity_lable{
+    background: none;
+    border:none;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#activity_input{
+    width:25%;
+}
+
+.activity_lab, .activity_name{
+    margin-right: 10px;
+}
+
+.activity_name{
+    width:80% !important;
+}
+
+.activity_sub{
+    margin-top:20px !important;
+}
+
+#activity_table_wrapper{
+    margin-top: 20px ;
+    text-align: center;
+}
+.dataTables_scrollHeadInner, .dataTables_scrollHeadInner .table-sm {
+    width: 100% !important;
+}
+
+.section_dashboard{
+    margin-top: 50px;
+}
+
+.username{
+    text-align: center;
+}
+
+#booking_table_wrapper{
+    text-align: center
+}
+
+.custom-file {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: calc(2.0625rem + 4px);
+    margin-bottom: 2rem;
+  }
+
+  .group{
+    padding:10px;
+    border:1px solid #1fad3c;
+    border-radius: 10px;
+    padding-bottom:0px;
+    margin-bottom:10px;
+    background-color: #d7e8e3;
+  }
+
+
+@media (max-width:770px){
+    #activity_input {
+        width:100%;
+    }
+}
